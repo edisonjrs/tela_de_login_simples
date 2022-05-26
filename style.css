@@ -1,0 +1,44 @@
+body{
+  background-color: #082944;
+  color: rgba(255, 255, 255, 0.788);
+}
+.login-box {
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: #c3cfdf5f;
+  height: 500px;
+  width: 600px;
+  margin: 300px auto;
+  padding: 32px;
+}
+.login-box h2 {
+  text-align: center;
+  margin-top: 50px;
+}
+.credenciais {
+  display: flex;
+  flex-direction: column;
+  margin: 100px;
+  align-items: center;
+  justify-content: center;
+}
+#sign-in {
+  margin-top: 32px;
+  width: 485px;
+  background-color: #082944;
+  border: none;
+  color: rgba(255, 255, 255, 0.788);
+  cursor: pointer;
+}
+input {
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.reset-login {
+  margin-top: 32px;
+}
+.reset-login a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.788);
+}
